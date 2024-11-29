@@ -33,6 +33,14 @@ h1 {
   text-align:left;
   }
 
+/*ADDED - for home page*/
+.centerhome {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*A box that stays at a fixed height and scrolls when content gets too long.*/
 .box {
   margin: 0 auto;
