@@ -45,8 +45,8 @@ h1 {
 .box {
   margin: 0 auto;
 	overflow: auto;
-	background-color: #fff;
-	border: 2px solid #000;
+	background-color:  #fcfae9;
+/* 	border: 2px solid #000; */
 	width: 32em;
 	height: 24em;
 	margin-top: 10.5%;
@@ -55,8 +55,8 @@ h1 {
 
 .box-round {
   margin: 0 auto;
-	background-color: #fff;
-	border: 2px solid #000;
+	background-color:  #fcfae9;
+/* 	border: 2px solid #000; */
 	width: 32em;
 	height: 24em;
 	margin-top: 7.5%;
