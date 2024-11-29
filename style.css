@@ -1,9 +1,14 @@
 /*EGGRAMEN TEMPLATE THANK YOU EGGRAMEN ILY https://eggramen.neocities.org/code/css_testpages */
-/*test*/
+/*** 
+
+This stylesheet has seen a minor revamp and now has different default padding and looks. The old appearance can be used via the "old" class.
+
+***/
+
 body {
 	font-family: "Consolas", "Arial", sans-serif;
 	font-size: 14px;
-	background: #FCFAE9
+	background: #8dd0fb url("/img/pond.gif"); /*Replace this with your own background image.*/
 	text-align: center; /*Text is centered by default.*/
 	background-size: cover;
 	background-attachment: fixed;
