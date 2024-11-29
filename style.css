@@ -42,6 +42,14 @@ h1 {
 	padding: 3.5em 4em;
 }
 
+.evilbox {
+  margin: -5% auto 4% auto;
+	background-color: #fcfae9;
+/* 	border: 2px solid #000; */
+	width: 52em;
+	padding: 3.5em 4em;
+}
+
 /*A box that stays at a fixed height and scrolls when content gets too long.*/
 .box {
   margin: 0 auto;
