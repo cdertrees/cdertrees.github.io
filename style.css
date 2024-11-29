@@ -35,10 +35,11 @@ h1 {
 
 /*ADDED - for home page*/
 .centerhome {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	background-color:  #fcfae9;
+	width: 52em;
+	height: 44em;
+	margin-top: 10.5%;
+	padding: 3.5em 4em;
 }
 
 /*A box that stays at a fixed height and scrolls when content gets too long.*/
