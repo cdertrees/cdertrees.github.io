@@ -79,11 +79,16 @@ h1 {
 
 /*A box that doesn't scroll, instead growing in height.*/
 .box-noscroll {
-  margin: 5% auto 4% auto;
+	 margin: -5% auto 4% auto;
 	background-color: #fcfae9;
 /* 	border: 2px solid #000; */
-	width: 42em;
+	width: 52em;
 	padding: 3.5em 4em;
+/*   margin: 5% auto 4% auto;
+	background-color: #fcfae9;
+
+	width: 42em;
+	padding: 3.5em 4em; */
 }
 
 /*Old box attributes. Use if you want an old-style box.*/
