@@ -48,12 +48,12 @@ h1 {
   left: 0;
 }
 .parent img {
-display: block;
+display: inline;
 /*   it exists */
 }
 
 .littleguy {
-position: relative;
+position: absolute;
 top: 0;
 left: 0;
 z-index: 10;
@@ -65,12 +65,12 @@ display:none;
 
 } */
 
-.parent:hover .littleguy{display:block}
+.parent:hover .littleguy{display:inline}
 
 
 .image1 {
  z-index: 1;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 /*   //border: 1px red solid; */
