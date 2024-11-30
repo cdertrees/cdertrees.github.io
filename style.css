@@ -47,6 +47,12 @@ h1 {
   top: 0;
   left: 0;
 }
+.parent img {
+display: block;
+/*   it exists */
+}
+
+
 .image1 {
  z-index: 1;
   position: relative;
@@ -71,9 +77,9 @@ z-index: 2;
 	padding: 3.5em 4em;
 }
 
-.hover_img a { position:relative; }
+/* .hover_img a { position:relative; }
 .hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span { display:block; }
+.hover_img a:hover span { display:block; } */
 
 /*END OF CHANGES*/
 
