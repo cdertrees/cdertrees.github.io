@@ -52,6 +52,21 @@ display: block;
 /*   it exists */
 }
 
+.littleguy {
+position: relative;
+top: 0;
+left: 0;
+z-index: 10;
+display:none;
+/*   it exists */
+}
+
+/* .littleguy img{
+
+} */
+
+.parent:hover .littleguy{display:block}
+
 
 .image1 {
  z-index: 1;
