@@ -65,11 +65,12 @@ display:none;
 
 } */
 
-.parent:hover .littleguy{display:inline}
-
 .clipbooks{
 clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 }
+
+.clipbooks:hover .littleguy{display:inline}
+
 
 .image1 {
  z-index: 1;
