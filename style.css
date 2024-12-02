@@ -51,7 +51,13 @@ h1 {
 display: inline;
 /*   it exists */
 }
-
+.books{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 5;
+display:inline;
+}
 .littleguy {
 position: absolute;
 top: 0;
