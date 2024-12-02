@@ -47,9 +47,17 @@ h1 {
   top: 0;
   left: 0;
 }
+.parent svg{
+  position: absolute;
+  top: 0;
+  left: 0;	
+}
 .parent img {
-display: inline;
+/* display: inline; */
 /*   it exists */
+display: block;
+   max-width: 100%;
+   height: auto;
 }
 .books{
 position: absolute;
