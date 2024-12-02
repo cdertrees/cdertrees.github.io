@@ -48,7 +48,7 @@ h1 {
   left: 0;
 }
 .parent svg{
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;	
 }
