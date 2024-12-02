@@ -87,9 +87,7 @@ clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 
 /* .books:hover .littleguy{display:inline} */
 
-books:hover {
-fill: #DA4567;
-}
+.books:hover .littleguy{display:inline} 
 
 .image1 {
  z-index: 1;
