@@ -60,11 +60,12 @@ display: inline;
    height: auto; */
 }
 .books{
-position: absolute;
+	
+/* position: absolute;
 top: 0;
 left: 0;
 z-index: 5;
-display:inline;
+display:inline; */
 }
 .littleguy {
 position: absolute;
@@ -83,7 +84,7 @@ display:none;
 clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 }
 
-.parent:hover .littleguy{display:inline}
+.books:hover .littleguy{display:inline}
 
 
 .image1 {
@@ -109,7 +110,6 @@ z-index: 2;
 	width: 52em;
 	padding: 3.5em 4em;
 }
-
 /* .hover_img a { position:relative; }
 .hover_img a span { position:absolute; display:none; z-index:99; }
 .hover_img a:hover span { display:block; } */
