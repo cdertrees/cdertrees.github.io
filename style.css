@@ -69,7 +69,7 @@ display:none;
 clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 }
 
-.clipbooks:hover .littleguy{display:inline}
+.parent:hover .littleguy{display:inline}
 
 
 .image1 {
