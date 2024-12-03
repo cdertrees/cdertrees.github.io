@@ -92,6 +92,14 @@ display:none;
 clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 }
 
+
+
+#Books:hover {
+  fill: blue;
+}
+
+
+
 /* .books:hover {
   fill: #DA4567;
 } */
@@ -128,10 +136,6 @@ z-index: 2;
 .hover_img a span { position:absolute; display:none; z-index:99; }
 .hover_img a:hover span { display:block; } */
 
-
-#Books:hover {
-  fill: blue;
-}
 
 
 
