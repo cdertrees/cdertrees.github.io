@@ -23,7 +23,7 @@
      viewBox="0 0 3000 3000" >
         <a href="https://cdertrees.itch.io/"  title="Gallery">
           
-  <path id="Books" onmouseover="showGuy(this)" onmouseout="hideGuy(this)"
+  <path id="Books" onmouseover="showGuy()" onmouseout="hideGuy()"
         fill="none" stroke="none" stroke-width="1"
         d="M 1688.00,1588.00
            C 1688.00,1588.00 2576.00,1668.00 2576.00,1668.00
@@ -46,13 +46,13 @@
       <p>this is in a box! (hopefully)</p> -->
     </div>  
      <script> 
-          function showGuy(x) {
-  x.style.visibility = "visible";
+          function showGuy() {
+ document.getElementById("guy").style.visibility ="visible";
  
 }
 
-          function hideGuy(x) {
-  x.style.visibility = "hidden";
+          function hideGuy() {
+ document.getElementById("guy").style.visibility ="hidden";
  
 }
   //         document.getElementById("Books").onmouseover = function() {
