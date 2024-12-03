@@ -93,7 +93,7 @@ clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 }
 
 
-#guy { visibility: hidden; }
+#guy { visibility: visible; }
 
 
 /* #Books:hover littleguy{
