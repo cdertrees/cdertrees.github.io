@@ -60,7 +60,9 @@ display: inline;
    height: auto; */
 }
 .books{
-	
+	  position: relative;
+  top: 0;
+  left: 0;
 /* position: absolute;
 top: 0;
 left: 0;
@@ -88,7 +90,7 @@ clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 /* .books:hover {
   fill: #DA4567;
 } */
-.parent svg:hover .littleguy{display:inline}
+.books:hover .littleguy{display:inline}
 
 /* .svg:hover .littleguy{display:inline}  */
 
