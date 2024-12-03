@@ -94,7 +94,7 @@ clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 
 
 
-#Books:hover .littleguy{
+#Books:hover littleguy{
 display:inline;
 }
 
