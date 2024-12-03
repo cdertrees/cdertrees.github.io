@@ -90,7 +90,7 @@ clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
 /* .books:hover {
   fill: #DA4567;
 } */
-.books:hover .littleguy{display:inline}
+.parent:hover .littleguy{display:inline}
 
 /* .svg:hover .littleguy{display:inline}  */
 
