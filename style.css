@@ -128,6 +128,14 @@ z-index: 2;
 .hover_img a span { position:absolute; display:none; z-index:99; }
 .hover_img a:hover span { display:block; } */
 
+
+#Books:hover {
+  fill: blue;
+}
+
+
+
+
 /*END OF CHANGES*/
 
 /*A box that stays at a fixed height and scrolls when content gets too long.*/
