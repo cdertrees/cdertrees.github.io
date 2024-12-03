@@ -24,8 +24,8 @@
      viewBox="0 0 3000 3000" >
         <a href="https://cdertrees.itch.io/"  title="Gallery">
           
-  <path id="Books" onmouseover="showGuy()" onmouseout="hideGuy()"
-        fill="none" stroke="none" stroke-width="1"
+  <path id="Books"
+        fill="black" stroke="none" stroke-width="1"
         d="M 1688.00,1588.00
            C 1688.00,1588.00 2576.00,1668.00 2576.00,1668.00
              2576.00,1668.00 2576.00,2232.00 2576.00,2232.00
@@ -36,7 +36,7 @@
           </a>
         
         </svg>
-        <span class="littleguy"><img src="guygallery.png" id="guy"></span>
+        <span class="littleguy" id="guy"><img src="guygallery.png"></span>
       </div>
         </div>
 <!--        <img src="bg.png" style="z-index: 0">
@@ -47,21 +47,30 @@
       <p>this is in a box! (hopefully)</p> -->
     </div>  
      <script> 
-          function showGuy() {
-            console.log("help");
- // document.getElementById("guy").style.visibility ="visible";
+document.getElementById("Books").onmouseover = function () {
+  document.getElementById("guy").style.visibility = "visible";
+};
+
+       document.getElementById("Books").onmouseout = function () {
+  document.getElementById("guy").style.visibility = "hidden";
+};
+
+       
+//           function showGuy() {
+//             console.log("help");
+//  // document.getElementById("guy").style.visibility ="visible";
  
-}
+// }
 
-          function hideGuy() {
- // document.getElementById("guy").style.visibility ="hidden";
+//           function hideGuy() {
+//  // document.getElementById("guy").style.visibility ="hidden";
 
-            console.log("help2");
-}
-  //         document.getElementById("Books").onmouseover = function() {
-  // document.getElementById("guy").style.visibility = "visible";
-  // console.log("I RAN"); 
- // }
+//             console.log("help2");
+// }
+//   //         document.getElementById("Books").onmouseover = function() {
+//   // document.getElementById("guy").style.visibility = "visible";
+//   // console.log("I RAN"); 
+//  // }
           
         </script>
   </body>
