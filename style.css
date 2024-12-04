@@ -176,7 +176,7 @@ z-index: 2;
 	 margin: 0% auto 4% auto;
 	background-color: #fcfae9;
 /* 	border: 2px solid #000; */
-	width: 52em;
+	width: 66em;
 	padding: 3.5em 4em;
 /*   margin: 5% auto 4% auto;
 	background-color: #fcfae9;
@@ -202,16 +202,17 @@ z-index: 2;
   }
 
 
-/*For narrow screens.*/
-@media (max-width: 500px) {
+/* /*For narrow screens.*/
+/* @media (max-width: 500px) {
   .box, .box-noscroll {
     width: 85%;
     }
-  }
+  } */
   
 /*Mobile compatibility*/
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
   .box, .box-noscroll {
     width: 85%;
     }
-  }
+  } */
+ */
