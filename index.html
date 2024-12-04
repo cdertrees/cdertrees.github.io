@@ -47,9 +47,17 @@
              1496.00,1656.00 1516.00,2212.00 1516.00,2212.00
              1516.00,2212.00 820.00,2340.00 800.00,2344.00" />
 
+  <path id="Gallery"
+        fill="#ffffff00" stroke="none" stroke-width="1"
+        d="M 1784.00,1496.00
+           C 1784.00,1496.00 1772.00,972.00 1772.00,972.00
+             1772.00,972.00 2456.00,936.00 2456.00,936.00
+             2456.00,936.00 2476.00,1520.00 2476.00,1520.00
+             2476.00,1520.00 1836.00,1508.00 1836.00,1508.00" />
+          
         </svg>
        <span class="littleguy"><img src="guygallery.png" id="guy">
-       <img src ="guycomputer.png" id="guy2">
+       <img src ="guycomputer.png" id="guy2">  <img src ="guygallery.png" id="guy3">
        </span>
       </div>
    
@@ -71,6 +79,17 @@ document.getElementById("Books").onmouseover = function () {
   
 };
 
+       document.getElementById("Gallery").onmouseover = function () {
+  document.getElementById("guy3").style.display= "inline";
+   // document.getElementById("guy").style.position= "absolute";
+   document.getElementById("guy3").style.visibility= "visible";
+
+
+  
+};
+
+       
+
        document.getElementById("Computer").onmouseover = function () {
   document.getElementById("guy2").style.display= "inline";
    // document.getElementById("guy").style.position= "absolute";
@@ -84,6 +103,12 @@ document.getElementById("Books").onmouseover = function () {
   document.getElementById("guy").style.display= "none";
   document.getElementById("guy").style.visibility= "hidden";
 };
+
+        document.getElementById("Gallery").onmouseout = function () {
+  document.getElementById("guy3").style.display= "none";
+  document.getElementById("guy3").style.visibility= "hidden";
+};
+       
               document.getElementById("Computer").onmouseout = function () {
   document.getElementById("guy2").style.display= "none";
   document.getElementById("guy2").style.visibility= "hidden";
