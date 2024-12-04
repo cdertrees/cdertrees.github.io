@@ -48,7 +48,9 @@
              1516.00,2212.00 820.00,2340.00 800.00,2344.00" />
 
         </svg>
-       <span class="littleguy"><img src="guygallery.png" id="guy"></span>
+       <span class="littleguy"><img src="guygallery.png" id="guy">
+       <img sci ="guycomputer.png" id="guy2">
+       </span>
       </div>
    
         </div>
@@ -64,12 +66,29 @@ document.getElementById("Books").onmouseover = function () {
   document.getElementById("guy").style.display= "inline";
    // document.getElementById("guy").style.position= "absolute";
    document.getElementById("guy").style.visibility= "visible";
+
+
+  
+};
+
+       document.getElementById("Computer").onmouseover = function () {
+  document.getElementById("guy2").style.display= "inline";
+   // document.getElementById("guy").style.position= "absolute";
+   document.getElementById("guy2").style.visibility= "visible";
+
+
+  
 };
 
        document.getElementById("Books").onmouseout = function () {
   document.getElementById("guy").style.display= "none";
   document.getElementById("guy").style.visibility= "hidden";
 };
+              document.getElementById("Computer").onmouseout = function () {
+  document.getElementById("guy2").style.display= "none";
+  document.getElementById("guy2").style.visibility= "hidden";
+};
+
 
        
 //           function showGuy() {
