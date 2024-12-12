@@ -6,7 +6,7 @@ This stylesheet has seen a minor revamp and now has different default padding an
 ***/
 
 body {
-	 font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+	 font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
 	background: #fcfae9; /*Replace this with your own background image.*/
 	text-align: left; /*Text is centered by default.*/
 	background-size: cover;
