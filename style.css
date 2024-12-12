@@ -6,10 +6,9 @@ This stylesheet has seen a minor revamp and now has different default padding an
 ***/
 
 body {
-	font-family: "Consolas", "Arial", sans-serif;
-	font-size: 14px;
+	 font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
 	background: #fcfae9; /*Replace this with your own background image.*/
-	text-align: center; /*Text is centered by default.*/
+	text-align: left; /*Text is centered by default.*/
 	background-size: cover;
 	background-attachment: fixed;
   background-position:center;
@@ -88,6 +87,11 @@ pointer-events: none;
 /* .littleguy img{
 
 } */
+
+a{
+	color: green;
+}
+
 
 .clipbooks{
 clip-path: polygon(51% 54%, 87% 56%, 86% 77%, 50% 73%);
